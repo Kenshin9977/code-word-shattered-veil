@@ -1,0 +1,9 @@
+app = "code-word-shattered-veil"
+
+[[services]]
+  internal_port = 8550
+  protocol = "tcp"
+
+  [[services.ports]]
+    handlers = ["http"]
+    port = 80
