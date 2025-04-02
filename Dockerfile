@@ -12,7 +12,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port Flet uses
-EXPOSE 8550
+EXPOSE 8080
 
 # Start the Flet app
-CMD ["flet", "app", "--port", "8550"]
