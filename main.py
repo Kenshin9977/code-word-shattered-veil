@@ -60,11 +60,15 @@ def main(page: ft.Page):
     page.title = "Word to Number Transcriber"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
-    input_field = ft.TextField(label="Enter a 4-letter word", width=200, max_length=4)
+    input_field = ft.Dropdown(
+        label="Word",
+        options=[ft.DropdownOption(text=w) for w in ["CRAB", "MOTH", "WORM", "YETI"]],
+        width=200,
+    )
 
     # Add the empty option for the arrangement key dropdown
     arrangement_field = ft.Dropdown(
-        label="Select solo letter",
+        label="Letter group",
         options=[ft.DropdownOption(text="None")]
         + [ft.DropdownOption(text=key) for key in ARRANGEMENTS.keys()],
         width=200,
