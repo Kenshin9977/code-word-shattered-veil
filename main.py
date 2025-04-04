@@ -4,7 +4,7 @@ import flet as ft
 ARRANGEMENTS = {
     "E": {"E": 1, "AI": 2, "OUY": 3, "FGHJ": 4, "KLMNPQR": 7, "BCDSTVWXZ": 9},
     "S": {"S": 1, "QX": 2, "JKZ": 3, "AIOUY": 5, "BCDEFGH": 7, "LMNPRTVW": 8},
-    "NI": {"M": 1, "NI": 2, "ECVB": 4, "XYZWK": 5, "QPGAFR": 6, "OSTUHJLD": 7},
+    "NI": {"M": 1, "NI": 2, "ECVB": 4, "XYZWK": 5, "QPGAFR": 6, "OSTUHJLD": 8},
     "XYZ": {"M": 1, "XYZ": 3, "JKQU": 4, "BCDEF": 5, "GHILNO": 6, "APRSTVW": 7},
 }
 
